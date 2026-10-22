@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ورشة أبو حمزة | خدمات التمديدات الصحية</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #222;
+      line-height: 1.8;
+    }
+
+    header {
+      background: #0b3954;
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 19px;
+    }
+
+    .phone {
+      display: inline-block;
+      margin-top: 20px;
+      background: #20a464;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 25px 15px;
+    }
+
+    .intro {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      text-align: center;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .intro h2 {
+      color: #0b3954;
+      margin-bottom: 10px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+
+    .service {
+      background: white;
+      padding: 25px 18px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .service h3 {
+      color: #0b3954;
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+
+    .service p {
+      color: #555;
+    }
+
+    .contact {
+      background: #0b3954;
+      color: white;
+      text-align: center;
+      margin-top: 30px;
+      padding: 30px 15px;
+      border-radius: 12px;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      margin-top: 15px;
+      background: #20a464;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 19px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>ورشة أبو حمزة</h1>
+    <p>التمديدات الصحية وفحص التسريب وتثقيب الجدران وتسليك المجارير</p>
+
+    <a class="phone" href="tel:0968691424">
+      📞 0968691424
+    </a>
+  </header>
+
+  <main class="container">
+
+    <section class="intro">
+      <h2>خدماتنا</h2>
+      <p>
+        نقدم خدمات متخصصة في أعمال التمديدات الصحية،
+        كشف تسريبات المياه، التثقيب والتسليك باستخدام معدات حديثة.
+      </p>
+    </section>
+
+    <section class="services">
+
+      <div class="service">
+        <h3>🔧 التمديدات الصحية</h3>
+        <p>تركيب وصيانة وإصلاح التمديدات الصحية.</p>
+      </div>
+
+      <div class="service">
+        <h3>💧 فحص التسريب</h3>
+        <p>كشف تسريبات المياه بأحدث الأجهزة وبدون تكسير.</p>
+      </div>
+
+      <div class="service">
+        <h3>🧱 تثقيب الجدران</h3>
+        <p>تثقيب وقص الجدران والخرسانة والسيراميك بدقة.</p>
+      </div>
+
+      <div class="service">
+        <h3>🚿 تسليك المجارير</h3>
+        <p>تسليك وتنظيف المجارير وحل الانسدادات.</p>
+      </div>
+
+      <div class="service">
+        <h3>🔥 تدفئة مركزية</h3>
+        <p>تركيب وصيانة أنظمة التدفئة المركزية.</p>
+      </div>
+
+      <div class="service">
+        <h3>💦 تنقية وفلترة المياه</h3>
+        <p>تركيب وصيانة أنظمة تنقية وفلترة المياه.</p>
+      </div>
+
+    </section>
+
+    <section class="contact">
+      <h2>للتواصل والاستفسار</h2>
+      <p>اتصل بنا مباشرة أو تواصل عبر واتساب</p>
+
+      <a class="whatsapp"
+         href="https://wa.me/963968691424"
+         target="_blank">
+        💬 واتساب
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 ورشة أبو حمزة - جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
