@@ -166,7 +166,11 @@
 
       <div class="service">
         <h3>🔥 تدفئة مركزية</h3>
-        <p>تركيب وصيانة أنظمة التدفئة المركزية.</p><img src="file_00000000036c821094b511e32f689ed7.png" alt="ورشة أبو حمزة" style="width:100%; max-width:600px; height:auto; border-radius:15px;">
+        <p>تركيب وصيانة أنظمة التدفئة المركزية.</p>
+<div class="service">
+    <h3>🔥 تدفئة مركزية</h3>
+    <p>تركيب وصيانة أنظمة التدفئة المركزية.</p>
+    <img src="file_00000000036c821094b511e32f689ed7.png" alt="ورشة أبو حمزة" style="width:100%; border-radius:12px;">
       </div>
 
       <div class="service">
