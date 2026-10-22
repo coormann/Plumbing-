@@ -163,10 +163,11 @@
         <h3>🚿 تسليك المجارير</h3>
         <p>تسليك وتنظيف المجارير وحل الانسدادات.</p>
       </div>
-<div class="service">
-    <h3>🔥 تدفئة مركزية</h3>
-    <p>تركيب وصيانة أنظمة التدفئة المركزية.</p>
-    <img src="coormann/file_00000000036c821094b511e32f689ed7.png" alt="ورشة أبو حمزة" style="width:100%; border-radius:12px;">
+       
+      <div class="service">
+        <h3>🔥 تدفئة مركزية</h3>
+        <p>تركيب وصيانة أنظمة التدفئة المركزية.</p>
+        <img src="coormann/file_00000000036c821094b511e32f689ed7.png" alt="ورشة أبو حمزة" style="width:100%; border-radius:12px;">
       </div>
 
       <div class="service">
