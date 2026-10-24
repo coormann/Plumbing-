@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>الخدمات الإضافية | ورشة أبو حمزة</title>
+
+<meta name="description" content="تعرف على الخدمات الإضافية التي تقدمها ورشة أبو حمزة.">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Tahoma, sans-serif;
+    color: white;
+    background: #10283c;
+    line-height: 1.8;
+}
+
+.container {
+    width: min(100% - 28px, 950px);
+    margin: auto;
+}
+
+header {
+    background: #091d2e;
+    border-bottom: 2px solid #18b6c9;
+    padding: 15px 0;
+}
+
+header a {
+    color: #48dce9;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero {
+    text-align: center;
+    padding: 35px 10px 20px;
+}
+
+h1 {
+    font-size: clamp(23px, 4vw, 30px);
+    margin-bottom: 8px;
+}
+
+.hero p {
+    color: #d8e6ee;
+    font-size: 14px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    padding: 20px 0 35px;
+}
+
+.card {
+    text-align: center;
+    padding: 20px 12px;
+    background: #193b53;
+    border: 1px solid #31556b;
+    border-radius: 12px;
+}
+
+.card .icon {
+    font-size: 30px;
+}
+
+.card h2 {
+    color: #48dce9;
+    font-size: 17px;
+}
+
+.card p {
+    color: #e2edf3;
+    font-size: 13px;
+}
+
+.button {
+    display: inline-block;
+    background: #18b6c9;
+    color: #09283b;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 10px 80px;
+    font-size: 12px;
+    color: #c8d8e1;
+    border-top: 1px solid #31556b;
+}
+
+.floating-buttons {
+    position: fixed;
+    right: 15px;
+    bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.float-button {
+    width: 47px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 0 3px 12px #0005;
+}
+
+.call {
+    background: #087bea;
+}
+
+.whatsapp {
+    background: #20bd5a;
+}
+
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .card {
+        padding: 14px 9px;
+    }
+
+    .card h2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <a href="index.html">← العودة إلى الصفحة الرئيسية</a>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <h1>خدمات إضافية</h1>
+            <p>
+                هذه الصفحة مخصصة لإضافة خدمات جديدة إلى ورشة أبو حمزة
+                مستقبلًا.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="grid">
+
+                <article class="card">
+                    <div class="icon">🛠️</div>
+                    <h2>خدمة جديدة 1</h2>
+                    <p>يمكنك استبدال هذا النص بوصف الخدمة التي تريد إضافتها.</p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">💧</div>
+                    <h2>خدمة جديدة 2</h2>
+                    <p>اكتب هنا تفاصيل الخدمة الإضافية عند تجهيزها.</p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">🔩</div>
+                    <h2>خدمة جديدة 3</h2>
+                    <p>يمكنك تعديل هذا القسم وإضافة صورة وسعر للخدمة لاحقًا.</p>
+                </article>
+
+            </div>
+
+            <div class="center">
+                <a class="button" href="index.html">العودة للرئيسية</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    © ورشة أبو حمزة — جميع الحقوق محفوظة
+</footer>
+
+<div class="floating-buttons">
+    <a class="float-button call"
+       href="tel:0968691424"
+       aria-label="اتصل الآن">☎</a>
+
+    <a class="float-button whatsapp"
+       href="https://wa.me/963968691424"
+       target="_blank"
+       rel="noopener"
+       aria-label="واتساب">◉</a>
+</div>
+
+</body>
+</html>
