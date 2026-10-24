@@ -1,100 +1,447 @@
-                 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ورشة أبو حمزة | خدمات صحية</title>
-<meta name="description" content="ورشة أبو حمزة للتمديدات الصحية وكشف تسرب المياه بدون تكسير والتدفئة المركزية وتثقيب الخرسانة والسيراميك وتسليك المجارير وفلترة المياه.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ورشة أبو حمزة | التمديدات الصحية وكشف التسرب</title>
+
+<meta name="description" content="ورشة أبو حمزة للتمديدات الصحية والتدفئة المركزية وكشف تسرب المياه وتثقيب السيراميك والباطون وتسليك المجارير وفلترة المياه.">
+
+<meta name="theme-color" content="#12304a">
+
 <style>
-*{box-sizing:border-box}
-
-body{
-    margin:0;
-    font-family:Tahoma,Arial,sans-serif;
-    background-image:url("./file_00000000036c821094b511e32f689ed7.png");
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-    background-repeat:no-repeat;
-    background-color:#f4f7fb;
-    color:#172334;
-    line-height:1.8;
+* {
+    box-sizing: border-box;
 }
-.top{background:#071a2d;color:#fff;text-align:center;padding:8px}.top a{color:#fff;font-weight:bold}
-nav{position:sticky;top:0;z-index:5;background:#fff;padding:12px 5%;display:flex;justify-content:space-between;box-shadow:0 3px 15px #0001}.brand{font-size:23px;font-weight:900;color:#0866c6}
-nav a{margin:0 8px;color:#334155;font-weight:bold;font-size:14px}.hero{
-    background:rgba(0,60,120,0.55);
-    color:#fff;
-    padding:65px 6%;}wrap{max-width:1100px;margin:auto}
-.heroGrid{display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center}h1{font-size:45px;line-height:1.25}.hero p{font-size:19px}
-.badge{background:#ffffff22;border:1px solid #fff5;padding:7px 14px;border-radius:30px}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{padding:13px 20px;border-radius:12px;font-weight:bold;display:inline-block}.primary{background:#fff;color:#0759aa}.green{background:#18a66a;color:#fff}
-.visual{background:#ffffff18;border:1px solid #ffffff40;border-radius:24px;padding:30px;text-align:center}.visual b{font-size:75px}
-section{padding:58px 6%}.title{text-align:center;margin-bottom:30px}.title h2{font-size:31px;color:#0b5598;margin:0}.title p{color:#667085}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card,.panel{background:#fff;padding:25px;border-radius:20px;box-shadow:0 8px 30px #102a430d;border:1px solid #e8eef5}.icon{font-size:40px}.card h3{color:#0b5da9;margin:5px 0}.card p{color:#667085}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:20px}.check{font-weight:bold;margin:9px 0}.contact{background:#071a2d;color:#fff;text-align:center}.contact h2{color:#fff}.phone{font-size:32px;font-weight:900;direction:ltr;display:inline-block}.float{position:fixed;bottom:18px;left:18px;background:#18a66a;color:#fff;padding:12px 18px;border-radius:40px;font-weight:bold;z-index:9}
-footer{text-align:center;background:#04111e;color:#b9c7d5;padding:18px;font-size:13px}
-@media(max-width:700px){nav div:last-child{display:none}.heroGrid,.about{grid-template-columns:1fr}.visual{order:-1}h1{font-size:34px}.hero p{font-size:17px}.phone{font-size:26px}}
-</style></head><body>
-<div class="top">📞 للاستفسار والحجز: <a href="tel:096869124">096869124</a></div>
-<nav><div class="brand">ورشة أبو حمزة</div><div><a href="#services">الخدمات</a><a href="#why">لماذا نحن؟</a><a href="#contact">تواصل</a></div></nav>
-<header class="hero"><div class="wrap heroGrid"><div>
-<span class="badge">دقة • خدمة ميدانية • نتيجة نظيفة</span>
-<h1>ورشة أبو حمزة<br>للخدمات الصحية والتخصصية</h1>
-<p>تركيب وصيانة التمديدات الصحية، كشف تسرب المياه بأحدث الأجهزة بدون تكسير، تدفئة مركزية، تثقيب الخرسانة والسيراميك، تسليك المجارير وفلترة المياه.</p>
-<div class="buttons"><a class="btn primary" href="tel:0968691424">📞 اتصل الآن</a><a class="btn green" href="https://wa.me/963968691424" target="_blank">💬 واتساب</a></div>
-</div><div class="visual"><b>🔧💧</b><h3>حلول عملية لأعمالك</h3><p>من التشخيص إلى التنفيذ، بخدمة مباشرة.</p></div></div></header>
-<section id="services">
-<div class="wrap">
-<div class="title">
-<h2>خدماتنا</h2>
-<p>خدمات متخصصة للأعمال الصحية والصيانة والتثقيب</p>
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Tahoma, sans-serif;
+    color: #ffffff;
+    background-color: #10283c;
+    background-image:
+        linear-gradient(rgba(8, 25, 40, 0.86), rgba(8, 25, 40, 0.90)),
+        url("file_00000000036c821094b511e32f689ed7.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: min(100% - 30px, 1050px);
+    margin: auto;
+}
+
+header {
+    background: rgba(8, 25, 40, 0.95);
+    border-bottom: 2px solid #18b6c9;
+    padding: 12px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: bold;
+    color: #36d5e5;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #36d5e5;
+}
+
+.hero {
+    text-align: center;
+    padding: 48px 10px 40px;
+}
+
+.hero h1 {
+    font-size: clamp(23px, 4vw, 34px);
+    line-height: 1.5;
+    margin: 0 0 12px;
+}
+
+.hero p {
+    font-size: 15px;
+    color: #e0edf5;
+    max-width: 650px;
+    margin: 0 auto 22px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 19px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button-main {
+    background: #16b8c9;
+    color: #062534;
+}
+
+.button-secondary {
+    background: #ffffff;
+    color: #12304a;
+}
+
+section {
+    padding: 25px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 23px;
+    margin: 0 0 7px;
+}
+
+.section-description {
+    text-align: center;
+    color: #d5e5ed;
+    font-size: 14px;
+    margin: 0 0 22px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    padding: 18px 14px;
+    text-align: center;
+}
+
+.card-icon {
+    font-size: 29px;
+}
+
+.card h3 {
+    font-size: 17px;
+    color: #54e0eb;
+    margin: 5px 0 8px;
+}
+
+.card p {
+    font-size: 13px;
+    color: #edf5f8;
+    margin: 0;
+}
+
+.more-services {
+    text-align: center;
+    padding: 25px 10px;
+}
+
+.contact-box {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.22);
+    padding: 25px 15px;
+    border-radius: 12px;
+}
+
+.contact-box h2 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.contact-box p {
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 18px 10px 85px;
+    color: #d0e0e8;
+    font-size: 12px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin-top: 25px;
+}
+
+/* أزرار الاتصال وواتساب الثابتة */
+.floating-buttons {
+    position: fixed;
+    bottom: 18px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.float-button {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 23px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.35);
+}
+
+.call-button {
+    background: #087bea;
+}
+
+.whatsapp-button {
+    background: #20bd5a;
+}
+
+/* تحسين العرض على الجوال */
+@media (max-width: 700px) {
+    .container {
+        width: calc(100% - 24px);
+    }
+
+    .header-content {
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero {
+        padding: 32px 5px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .card {
+        padding: 14px 9px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .float-button {
+        width: 45px;
+        height: 45px;
+        font-size: 21px;
+    }
+
+    body {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 380px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container header-content">
+        <div class="logo">🔧 ورشة أبو حمزة</div>
+
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#services">خدماتنا</a>
+            <a href="#contact">اتصل بنا</a>
+            <a href="services.html">خدمات إضافية</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>ورشة أبو حمزة للتمديدات الصحية</h1>
+
+            <p>
+                تركيب وصيانة التمديدات الصحية والتدفئة المركزية،
+                وكشف تسرب المياه، وتثقيب السيراميك والباطون،
+                وتسليك المجارير وفلترة المياه.
+            </p>
+
+            <a class="button button-main" href="tel:0968691424">
+                📞 اتصل الآن
+            </a>
+
+            <a class="button button-secondary"
+               href="https://wa.me/963968691424"
+               target="_blank" rel="noopener">
+                💬 راسلنا عبر WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا</h2>
+
+            <p class="section-description">
+                خدمات متخصصة للأعمال الصحية والصيانة والتثقيب
+            </p>
+
+            <div class="grid">
+
+                <div class="card">
+                    <div class="card-icon">🔧</div>
+                    <h3>التمديدات الصحية</h3>
+                    <p>تركيب وصيانة وإصلاح شبكات المياه والصرف الصحي.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🔥</div>
+                    <h3>التدفئة المركزية</h3>
+                    <p>تركيب وصيانة أنظمة التدفئة المركزية.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">💧</div>
+                    <h3>كشف تسرب المياه</h3>
+                    <p>فحص التسريبات بأجهزة متخصصة وبدون تكسير قدر الإمكان.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🧱</div>
+                    <h3>تثقيب السيراميك والباطون</h3>
+                    <p>تثقيب دقيق لتنفيذ فتحات الأعمال والتركيبات.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🚿</div>
+                    <h3>تسليك المجارير</h3>
+                    <p>معالجة انسداد المجارير ومشكلات تصريف المياه.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">💦</div>
+                    <h3>فلترة المياه</h3>
+                    <p>تركيب وصيانة أنظمة فلاتر المياه.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="more-services">
+        <div class="container">
+            <h2 class="section-title">هل تبحث عن خدمات أخرى؟</h2>
+
+            <p class="section-description">
+                خصصنا صفحة مستقلة لإضافة خدمات جديدة مستقبلًا.
+            </p>
+
+            <a class="button button-main" href="services.html">
+                استكشف الخدمات الإضافية ←
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container contact-box">
+            <h2>تواصل مع ورشة أبو حمزة</h2>
+
+            <p>للاستفسار عن الخدمات أو طلب العمل، تواصل معنا مباشرة.</p>
+
+            <p>
+                <strong>رقم الهاتف: 0968691424</strong>
+            </p>
+
+            <a class="button button-main" href="tel:0968691424">
+                📞 الاتصال بالورشة
+            </a>
+
+            <a class="button button-secondary"
+               href="https://wa.me/963968691424"
+               target="_blank" rel="noopener">
+                💬 WhatsApp
+            </a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        © ورشة أبو حمزة — جميع الحقوق محفوظة
+    </div>
+</footer>
+
+<div class="floating-buttons">
+    <a class="float-button call-button"
+       href="tel:0968691424"
+       aria-label="اتصل بالورشة"
+       title="اتصل الآن">☎</a>
+
+    <a class="float-button whatsapp-button"
+       href="https://wa.me/963968691424"
+       target="_blank"
+       rel="noopener"
+       aria-label="راسلنا عبر واتساب"
+       title="WhatsApp">◉</a>
 </div>
 
-<div class="grid">
-
-<div class="card">
-<img src="./file_00000000036c821094b511e32f689ed7.png" alt="ورشة أبو حمزة" style="width:100%;height:180px;object-fit:cover;border-radius:12px;">
-<h3>🔧 التدفئة المركزية</h3>
-<p>.تركيب سواد وبياض شوفاج مخفي وظاهر.</p>
-</div>
-
-<div class="card">
-<div class="icon">🔥</div>
-<h3>التمديدات الصحية</h3>
-<p>تركيب سواد وبياض شبكات المياه والصرف الصحية.</p>
-</div>
-
-<div class="card">
-<div class="icon">💧</div>
-<h3>كشف تسرب المياه</h3>
-<p>فحص التسريبات بأجهزة حديثة وبدون تكسير قدر الإمكان.</p>
-</div>
-
-<div class="card">
-<div class="icon">🧱</div>
-<h3>تثقيب الخرسانة والسيراميك</h3>
-<p>تثقيب دقيق للجدران والخرسانة والسيراميك.</p>
-</div>
-
-<div class="card">
-<div class="icon">🌀</div>
-<h3>تسليك المجارير</h3>
-<p>معالجة الانسدادات ومشاكل خطوط الصرف.</p>
-</div>
-
-<div class="card">
-<div class="icon">🚰</div>
-<h3>تنقية وفلترة المياه</h3>
-<p>تركيب وصيانة حلول تنقية وفلترة المياه.</p>
-</div>
-
-</div>
-</div>
-</section>
-<section id="why"><div class="wrap"><div class="title"><h2>لماذا تختار أبو حمزة؟</h2><p>نهتم بالتشخيص الصحيح وجودة التنفيذ والنتيجة النهائية.</p></div><div class="about">
-<div class="panel"><h3>خدمة تركز على النتيجة</h3><p>نحدد المشكلة وطريقة العمل المناسبة قبل البدء، مع الاهتمام بالدقة والنظافة أثناء التنفيذ.</p></div>
-<div class="panel"><div class="check">✓ فحص تسرب المياه بدون تكسير قدر الإمكان</div><div class="check">✓ تثقيب الخرسانة والسيراميك</div><div class="check">✓ خدمات صحية وصيانة</div><div class="check">✓ تواصل مباشر عبر الهاتف والواتساب</div></div>
-</div></div></section>
-<section id="contact" class="contact"><div class="wrap"><div class="title"><h2>اطلب الخدمة الآن</h2><p style="color:#cbd5e1">اتصل أو أرسل رسالة واتساب للاستفسار والحجز.</p></div><div class="phone">096869124</div><div class="buttons" style="justify-content:center"><a class="btn primary" href="tel:0968691424">📞 اتصال</a><a class="btn green" href="https://wa.me/963968691424" target="_blank">💬 واتساب</a></div></div></section>
-<a class="float" href="https://wa.me/96396869124" target="_blank">💬 واتساب</a><footer>© ورشة أبو حمزة — جميع الحقوق محفوظة</footer>
-</body></html>
+</body>
+</html>
